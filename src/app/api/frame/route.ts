@@ -36,14 +36,14 @@ export async function POST(req: NextRequest, res: NextResponse) {
   console.log(`Pressed button ${buttonId} with fid ${fid}`);
 
   const NEW_IMAGE_URLimage =
-    "https://i.ibb.co/x6mgHjc/Screen-2.png";
+["https://i.ibb.co/wJ1jMfX/Screen-yes.png","https://i.ibb.co/ZJS43HR/Screen-no.png"]
 
   let html =
     `<!DOCTYPE html><html><head>` +
     `<meta property="fc:frame" content="vNext" />` +
-    `<meta property="fc:frame:image" content="${NEW_IMAGE_URLimage}" />` +
-    `<meta property="fc:frame:button:1" content="$DOGE" />` +
-    `<meta property="fc:frame:button:2" content="$SOL" />` +
+    `<meta property="fc:frame:image" content="${NEW_IMAGE_URLimage[buttonId]}" />` +
+    `<meta property="fc:frame:button:1" content="Play again" />` +
+    `<meta property="fc:frame:button:2" content="WTF?" />` +
     `<meta property="fc:frame:post_url" content="${POST_URL}" />` +
     `</head></html>`;
 

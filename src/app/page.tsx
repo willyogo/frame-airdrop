@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
-const POST_URL = "https://i.ibb.co/wKd5H9P/Screen-Intro-text.png";
-const IMG_URL = "https://i.ibb.co/QKWJpsq/Screen.png";
+const POST_URL = "https://frame-quiz-test.vercel.app/api/frame";
+const IMG_URL = "https://i.ibb.co/wKd5H9P/Screen-Intro-text.png";
 
 console.log("posturl", POST_URL);
 const frameMetadata = {
