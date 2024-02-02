@@ -36,7 +36,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
   console.log(`Pressed button ${buttonId} with fid ${fid}`);
 
   const NEW_IMAGE_URLimage =
-["https://i.ibb.co/wJ1jMfX/Screen-yes.png","https://i.ibb.co/ZJS43HR/Screen-no.png"]
+["https://i.ibb.co/hVj0H21/Screen-yes.png","https://i.ibb.co/YLX3x4y/Screen-no.png"]
 
   let html =
     `<!DOCTYPE html><html><head>` +
