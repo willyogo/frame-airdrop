@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { Message, getSSLHubRpcClient } from "@farcaster/hub-nodejs";
 import { FrameRequest } from "../../types/farcasterTypes";
 
-const POST_URL = "https://frame-airdrop.vercel.app/api/frame";
+const POST_URL = "https://frame-quiz-test.vercel.app/api/frame";
 
 export async function POST(req: NextRequest, res: NextResponse) {
   console.log("POST received at /api/frame");
