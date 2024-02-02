@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 const POST_URL = "https://i.ibb.co/wKd5H9P/Screen-Intro-text.png";
-const IMG_URL = "https://ibb.co/jrC8b7x";
+const IMG_URL = "https://i.ibb.co/QKWJpsq/Screen.png";
 
 console.log("posturl", POST_URL);
 const frameMetadata = {
