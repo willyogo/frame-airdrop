@@ -41,7 +41,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
   let html =
     `<!DOCTYPE html><html><head>` +
     `<meta property="fc:frame" content="vNext" />` +
-    `<meta property="fc:frame:image" content="${NEW_IMAGE_URLimage[buttonId+1]}" />` +
+    `<meta property="fc:frame:image" content="${NEW_IMAGE_URLimage[buttonId-1]}" />` +
     `<meta property="fc:frame:button:1" content="Play again" />` +
     `<meta property="fc:frame:button:2" content="WTF?" />` +
     `<meta property="fc:frame:post_url" content="${POST_URL}" />` +
